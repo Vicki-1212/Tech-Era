@@ -1,0 +1,71 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 60vh;
+  padding-left: 50px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.home-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+
+.courseList-container {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.home-failure-container {
+  min-width: 60vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-failure-image {
+  width: 30%;
+}
+
+.home-failure-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+
+.home-failure-paragraph {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.home-button {
+  background-color: #4656a1;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 80px;
+}
+
+.home-loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}

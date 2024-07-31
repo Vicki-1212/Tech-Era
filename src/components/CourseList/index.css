@@ -1,0 +1,28 @@
+.navlink {
+  text-decoration: none;
+}
+
+.course-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  line-height: 3.5;
+  width: 180px;
+}
+
+.home-image {
+  width: 60px;
+  height: 60px;
+}
+
+.course-name {
+  margin-left: 20px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: 500;
+}
